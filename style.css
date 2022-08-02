@@ -1,0 +1,132 @@
+/* ----------------- Core ----------------- */
+body {
+  font-family: "Tajawal", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 50px;
+  line-height: 1px;
+}
+h3 {
+  font-size: 20px;
+}
+
+/* ----------------- Colors ----------------- */
+.orange {
+  color: rgb(255, 150, 13);
+}
+.green {
+  color: rgb(4, 170, 13);
+}
+/* ----------------- Padding and Margins ----------------- */
+
+.pt-50 {
+  padding-top: 50px;
+}
+.center {
+  text-align: center;
+}
+footer {
+  padding: 20px;
+  background-color: rgb(1, 2, 30);
+  height: 150px;
+}
+footer h2 {
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+}
+/* ----------------- Buttons ----------------- */
+
+.order-now-button {
+  background-image: linear-gradient(60deg, rgb(4, 170, 13), rgb(255, 150, 13));
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.read-more-button {
+  background-image: linear-gradient(60deg, rgb(4, 170, 13), rgb(255, 150, 13));
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+/* ----------------- Elements ----------------- */
+.header {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1px;
+}
+
+.section-flex {
+  display: flex;
+}
+.section-flex img {
+  width: 80%;
+}
+.second-section-bg {
+  background-image: url(/images/Frame-57.jpg);
+  background-repeat: no-repeats;
+  background-position: center;
+  background-size: contain;
+}
+.half-width {
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blog-head {
+  text-align: center;
+}
+.blog-info {
+  margin: auto;
+  width: 50%;
+}
+.blog {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.blog-item {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blog-item img {
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.portfolio {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 35px;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.portfolio-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+  line-height: 1px;
+}
